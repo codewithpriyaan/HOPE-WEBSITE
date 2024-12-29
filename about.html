@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about HOPE's mission, vision, and history as a leading footwear brand in India since 2001.">
+    <title>About Us - HOPE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black; /* Default background color */
+            color: white; /* Default text color for better visibility */
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: black;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center; /* Centers the navigation links horizontally */
+            align-items: center; /* Vertically aligns items */
+            padding: 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px; /* Adds space between links */
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #f0f0f0;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            background-image: url("WhatsApp Image 2024-12-29 at 12.40.55 AM.jpeg"); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align content to the top */
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: black; /* Title color in hero section */
+            background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background for contrast */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .hero-content p {
+            font-size: 1.2em;
+            color: white;
+        }
+
+        /* About Us Detail Boxes */
+        .details-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-image: url('WhatsApp Image 2024-12-29 at 12.40.55 AM.jpeg');
+            min-height: 100vh; /* Ensures content fits the screen height */
+        }
+
+        .detail-item {
+            width: 400px;
+            bottom: 30px;
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: white; /* Text color inside boxes */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            font-style: unset;
+        }
+
+        .detail-item h3 {
+            margin-top: 0;
+            color: #ffffff; /* Highlight color */
+        }
+
+        .detail-item p {
+            color: #ffffff;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Our Services</a>
+                    <ul class="dropdown-content">
+                        <li><a href="order.html">Order Shoes</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>About Us</h1>
+            <p>Scroll down to learn more about our mission, vision, and history.</p>
+        </div>
+    </div>
+
+    <!-- Details Section -->
+    <section class="details-section">
+        <div class="detail-item">
+            <h3>Our Mission</h3>
+            <p>To provide high-quality, comfortable, and stylish footwear that enhances the lives of our customers.</p>
+        </div>
+        <div class="detail-item">
+            <h3>Our Vision</h3>
+            <p>To be the leading footwear brand in India, recognized for our commitment to quality, comfort, and customer satisfaction.</p>
+        </div>
+        <div class="detail-item">
+            <h3>Since 2001</h3>
+            <p>Serving our customers with the best quality shoes.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 HOPE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
